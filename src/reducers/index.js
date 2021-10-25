@@ -86,6 +86,7 @@ function todoProduct(state = initProduct, action) {
     default:
       return state;
   }
+  return state;
 }
 const ShopApp = combineReducers({
   _todoProduct: todoProduct,
