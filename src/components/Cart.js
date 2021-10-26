@@ -56,6 +56,7 @@ function Cart({ items, IncreaseQuantity, DecreaseQuantity, DeleteCart }) {
                   <img
                     src={item.image}
                     alt=""
+                    loading="lazy"
                     style={{
                       width: "120px",
                       height: "120px",

@@ -24,7 +24,12 @@ export class Product extends Component {
                     Colour: {item.primaryColour}
                   </div>
                 </div>
-                <img className="image-content" alt="" src={item.searchImage} />
+                <img
+                  className="image-content"
+                  alt=""
+                  loading="lazy"
+                  src={item.searchImage}
+                />
                 <h3>{item.brand}</h3>
                 <p>{item.productName}</p>
                 <h6>₹ {item.price}</h6>
